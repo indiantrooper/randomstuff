@@ -1,8 +1,8 @@
 public class sum {
     public static void main(String[] args) {
         // Declare two integer variables
-        int num1 = 10;
-        int num2 = 20;
+        int num1 = Integer.parseInt(args[0]);
+        int num2 = Integer.parseInt(args[1]);
 
         // Add the variables
         int sum = num1 + num2;
